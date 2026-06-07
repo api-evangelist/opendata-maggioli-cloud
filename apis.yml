@@ -1,0 +1,56 @@
+aid: opendata-maggioli-cloud
+name: Maggioli Cloud Open Data
+description: >-
+  Maggioli Cloud Open Data is a organization open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API over approximately 6,061 datasets.
+kind: organization
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-maggioli-cloud/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Organization
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-maggioli-cloud:catalog
+    name: Maggioli Cloud Open Data CKAN Action API
+    description: >-
+      CKAN API for Maggioli Cloud Open Data, ~6,061 datasets.
+    humanURL: https://www.opendata.maggioli.cloud
+    baseURL: https://www.opendata.maggioli.cloud/api/3/action
+    tags:
+      - CKAN
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://www.opendata.maggioli.cloud
+      - type: x-api-endpoint
+        url: https://www.opendata.maggioli.cloud/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.10.3'
+common:
+  - type: Website
+    url: https://www.opendata.maggioli.cloud
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-maggioli-cloud-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-maggioli-cloud-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-maggioli-cloud-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
