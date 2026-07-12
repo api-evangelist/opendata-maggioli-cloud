@@ -39,6 +39,8 @@ apis:
       - type: x-ckan-version
         value: '2.10.3'
 common:
+  - type: DomainSecurity
+    url: security/opendata-maggioli-cloud-domain-security.yml
   - type: Website
     url: https://www.opendata.maggioli.cloud
   - type: Documentation
